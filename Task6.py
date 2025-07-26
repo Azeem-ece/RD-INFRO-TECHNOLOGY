@@ -17,8 +17,8 @@ cursor.execute('''
 cursor.execute("DELETE FROM users")
 
 # Step 4: Add two users into the table
-cursor.execute("INSERT INTO users (name, email) VALUES (?, ?)", ("Alice", "alice@example.com"))
-cursor.execute("INSERT INTO users (name, email) VALUES (?, ?)", ("Bob", "bob@example.com"))
+cursor.execute("INSERT INTO users (name, email) VALUES (?, ?)", ("John", "john@example.com"))
+cursor.execute("INSERT INTO users (name, email) VALUES (?, ?)", ("Sara", "sara@example.com"))
 
 # Step 5: Save changes and show all users
 conn.commit()
